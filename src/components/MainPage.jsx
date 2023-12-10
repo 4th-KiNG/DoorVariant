@@ -33,6 +33,7 @@ function animateHandle() {
 
 
 
+
 function MainPage() {
 
   document.addEventListener('DOMContentLoaded', animateScrollingElements);
