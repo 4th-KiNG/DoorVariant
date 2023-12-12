@@ -1,6 +1,7 @@
 import './Header.css';
 import { door, phone, clock } from '../assets'
 
+
 function Header() {
   return (
     <div className='header'>
@@ -11,7 +12,7 @@ function Header() {
       <div>
       </div>
       <div className='link-info'>
-        <a href='#1' className='link-txt'>О нас</a>
+        <a href='/#1' className='link-txt'>О нас</a>
         <a href='' className='link-txt'>Каталог</a>
       </div>
       <div className='info'>

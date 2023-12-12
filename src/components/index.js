@@ -1,5 +1,5 @@
 import Header from './Header'
-import MainPage from './MainPage'
+import MainPage from '../pages/MainPage'
 import Slider from './Slider'
 import Slider1 from './Slider1'
 import Footer from './Footer.jsx'

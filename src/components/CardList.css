@@ -1,0 +1,11 @@
+.img-of-door{
+    max-width: 200px;
+    max-height: 415px;
+}
+.doorlist{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    padding: 30px;
+}
