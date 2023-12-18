@@ -2,6 +2,9 @@ import './MainPage.css';
 import { star, goldDoor, doorCard, doorCard1, doorCard2,doorCard3, line, line1, handle1, handle2, handle3, floorFon, pencil, car, tool, place } from '../assets';
 import Slider from '../components/Slider';
 import Slider1 from '../components/Slider1';
+import { scroller, Element } from 'react-scroll';
+import { Link, Navigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 function isElementInViewport(el) {
   const rect = el.getBoundingClientRect();
@@ -35,7 +38,6 @@ function animateHandle() {
 
 
 function MainPage() {
-
   document.addEventListener('DOMContentLoaded', animateScrollingElements);
   window.addEventListener('scroll', animateScrollingElements);
   document.addEventListener('DOMContentLoaded', animateHandle);
@@ -58,14 +60,14 @@ function MainPage() {
         <div className='door-card'>
           <div className='doorcard-txt'>
             <p className='card-txt-p'>Двери входные</p>
-            <a className='card-txt-a' href="">Открыть в каталоге</a>
+            <Link to="/Catalog?scrollToElement=outdoor" className='card-txt-a'>Открыть в каталоге</Link>
           </div>
             <img src={doorCard} alt="" className='door-img' />
         </div>
         <div className='door-card'>
           <div className='doorcard-txt'>
             <p className='card-txt-p1'>Двери межкомнатные</p>
-            <a className='card-txt-a' href="">Открыть в каталоге</a>
+            <Link to="/Catalog?scrollToElement=indoor" className='card-txt-a'>Открыть в каталоге</Link>
           </div>
             <img src={doorCard1} alt="" className='door-img' />
         </div>
@@ -74,14 +76,14 @@ function MainPage() {
         <div className='door-card'>
         <div className='doorcard-txt'>
             <p className='card-txt-p'>Фурнитура</p>
-            <a className='card-txt-a' href="">Открыть в каталоге</a>
+            <Link to="/Catalog?scrollToElement=fur" className='card-txt-a'>Открыть в каталоге</Link>
           </div>
             <img src={doorCard2} alt="" className='door-img1'  />
         </div>
         <div className='door-card'>
         <div className='doorcard-txt'>
             <p className='card-txt-p1'>Напольное покрытие</p>
-            <a className='card-txt-a' href="">Открыть в каталоге</a>
+            <Link to="/Catalog?scrollToElement=floor" className='card-txt-a'>Открыть в каталоге</Link>
           </div>
             <img src={doorCard3} alt="" className='door-img2' />
         </div>
@@ -91,7 +93,9 @@ function MainPage() {
         <div className='about-us' id='1'>
           <h1 className='about-us-txt element-to-animate'>О нас</h1>
           <hr className='line-b'/>
-          <p className='about-us-txt element-to-animate'>Для вас в наличии представлены входные и межкомнатные двери, фурнитура и все виды напольного покрытия. Новинки всех производителей у нас и только для вас. Квалифицированные сотрудники, индивидуальный подход, консультация по подбору товара. Доставка в любой район города и края. Профессиональная и качественная установка дверей с гарантией от магазина. Мы ждём вас!</p>
+          <p className='about-us-txt element-to-animate'>"Двери Вариант" с 2010 года на дверном рынке, квалифицированные сотрудники и индивидуальный подход к каждому гостю салона, грамотный просчет заявки, подбор ассортимента, консультация при вызове замерщика, своевременная доставка по городу и краю.
+              У нас вы сможете  приобрести не только качественную продукцию, будь это двери или напольные покрытия, по доступным ценам, но и воспользоваться профессиональной установкой с гарантией от нашего магазина. Регулярные акции и скидки не оставят вас равнодушными.
+              Будем рады Вас видеть в качестве гостя нашего салона.</p>
         </div>
       </div>
       <div className='advantages'>

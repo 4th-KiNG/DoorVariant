@@ -7,7 +7,7 @@ function Footer(){
         <div className='footer'>
             <div className='avito'>
                 <img src={avito} alt="" className='avito-img' />
-                <a href="https://www.avito.ru/user/4b86ce2f65fbad6132a94912f543feee/profile/all?id=2825941538&src=item&page_from=from_item_card&iid=2825941538&sellerId=4b86ce2f65fbad6132a94912f543feee" className='avito-txt'>Мы на Авито</a>
+                <a href="https://www.avito.ru/krasnodar/remont_i_stroitelstvo/dveri_mezhkomnatnye_2825941538" className='avito-txt'>Мы на Авито</a>
             </div>
             <div className='logotype'>
                 <img src={doorIco} alt="" className='logotype-img' />
