@@ -88,6 +88,7 @@ function MainPage() {
             <img src={doorCard3} alt="" className='door-img2' />
         </div>
       </div>
+      
       <hr className='line-y'/>
       <div className='about-us1'>
         <div className='about-us' id='1'>
