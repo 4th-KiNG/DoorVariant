@@ -90,7 +90,24 @@
         font-size: 14px;
     }
 }
-@media (max-width: 420px){
+@media (max-width: 415px){
+    .img-of-fur{
+        width: 80px;
+        height: 80px;
+    }
+    .element-fur{
+        width: 80px;
+        height: 95px;
+        border-radius: 0 0 4px 4px;
+    }
+    .cost1{
+        font-size: 12px;
+    }
+    .doorlist{
+        gap: 15px;
+    }
+}
+@media (max-width: 350px){
     .img-of-fur{
         width: 70px;
         height: 70px;
