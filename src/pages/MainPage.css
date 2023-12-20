@@ -232,6 +232,7 @@ p.work-time-txt{
 .place{
     opacity: 0;
     width: 95%;
+    height: 100%;
     margin-left: -3%;
 }
 
@@ -498,7 +499,8 @@ p.work-time-txt{
     }
     .place{
         width: 100%;
-        margin-top: 12%;
+        height: 90%;
+        margin-top: 6%;
         margin-left: -5%;
     }
     .advantages{
@@ -602,7 +604,7 @@ p.work-time-txt{
     }
     .place{
         width: 100%;
-        margin-top: 18%;
+        margin-top: 8%;
         margin-left: -5%;
     }
     .advantages{
@@ -692,7 +694,7 @@ p.work-time-txt{
     }
     .place{
         width: 100%;
-        margin-top: 18%;
+        margin-top: 8%;
         margin-left: -5%;
     }
     .advantages{

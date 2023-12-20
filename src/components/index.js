@@ -5,10 +5,12 @@ import Slider1 from './Slider1'
 import Footer from './Footer.jsx'
 import CardListFur from './CardListFur.jsx'
 import CardList from './CardList'
+import Map from './Map'
 export{
     Header,
     MainPage,
     Slider,
     Slider1,
-    Footer
+    Footer,
+    Map
 }

@@ -5,6 +5,7 @@ import Slider1 from '../components/Slider1';
 import { scroller, Element } from 'react-scroll';
 import { Link, Navigate } from 'react-router-dom';
 import { useNavigate } from 'react-router-dom';
+import { Map } from '../components';
 
 function isElementInViewport(el) {
   const rect = el.getBoundingClientRect();
@@ -123,7 +124,7 @@ function MainPage() {
           <p className='work-time-txt element-to-animate'>г.Краснодар ул.Кирилла Россинского 18, этаж 2</p>
         </div>
         <div className='place element-to-animate'>
-          <img src={place} alt="" className='place element-to-animate' />
+          <iframe className='place element-to-animate' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d296.0887249164506!2d39.02214374056111!3d45.08809374139919!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40f0444e4b4f0eef%3A0x7504d21a08317277!2z0YPQuy4g0JrQuNGA0LjQu9C70LAg0KDQvtGB0YHQuNC90YHQutC-0LPQviwgMTgsINCa0YDQsNGB0L3QvtC00LDRgCwg0JrRgNCw0YHQvdC-0LTQsNGA0YHQutC40Lkg0LrRgNCw0LksINCg0L7RgdGB0LjRjywgMzUwMDcz!5e0!3m2!1sru!2sfr!4v1703080854421!5m2!1sru!2sfr" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
       </div>
     </div>
