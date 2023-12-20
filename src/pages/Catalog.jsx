@@ -1,15 +1,14 @@
 import './Catalog.css'
 import React, { useEffect } from 'react';
 import { Link, useLocation, useParams } from 'react-router-dom';
-import CardList from '../components/CardList'
-import CardListFur from '../components/CardListFur';
 import d1 from '../catalog/indoor/1.jpg'
 import { d10, d11, d12, d13, d14, d15, d16, d17, d18, d19, d2, d20, d21, d22, d23, d24, d26, d25, d27, d28, d29, d3, d30, d31, d32, d33, d34, d35, d36, d37, d38, d39, d4, d40, d41, d5, d6, d7, d8, d9, o1, o2, o3, o4, o5, o6, o7, o8, o9, o10, o11, o12, o13, o14, o15, o16, o17, o18, o19, o20, o21, o22, o23, o24, o25, o26, o27, o28, o29, o30, o31, o32, o33, o34, o35, o36, o37, o38, h1, h2, h3, h4, h5, h6, h7, h8, h9, h10, h11, h12, h13, h14, h15, h16, h17, h18, k1, k2, k3, k4, k5, k6, k7, k8, k9, k10, l1, l2, l3, l4, l5, l6, l7, l8, } from '../catalog';
 import {lr1, lr2, lr3, lr4, lr5, lr6, lr7, lr8, kt1, kt2, kt3, kt4, kt5, kt6, kt7, hl1, hl2, hl3, hl4, hl5} from '../catalog'
 import { Element, scroller } from 'react-scroll';
+import { lazy, Suspense } from 'react';
 
-
-
+const CardList = lazy(() => import('../components/CardList'))
+const CardListFur = lazy(() => import('../components/CardListFur'))
 const Catalog = () => {
     const params = useParams()
     const location = useLocation();
@@ -184,23 +183,39 @@ const Catalog = () => {
             </div>
             <h1 className='catalog-lb'>Каталог</h1>
             <Element name='outdoor'><h2 className='indoor-lb' id='outdoor'>Входные двери</h2></Element>
-            <CardList item={outdoors} />
+            <Suspense fallback={<div>Загрузка...</div>}>
+                <CardList item={outdoors} />
+            </Suspense>
             <Element name='indoor'><h2 className='indoor-lb' id='indoor'>Межкомнатные двери</h2></Element>
-            <CardList item={indoors} />
+            <Suspense fallback={<div>Загрузка...</div>}>
+                <CardList item={indoors} />
+            </Suspense>
             <Element name='fur'><h2 className='indoor-lb' id='fur'>Фуринитура</h2></Element>
             <h2 className='indoor-lb fur'>Дверные ручки</h2>
-            <CardListFur item={handles} />
+            <Suspense fallback={<div>Загрузка...</div>}>
+                <CardListFur item={handles} />
+            </Suspense>
             <h2 className='indoor-lb fur'>Замки</h2>
-            <CardListFur item={locks} />
+            <Suspense fallback={<div>Загрузка...</div>}>
+                <CardListFur item={locks} />
+            </Suspense>
             <h2 className='indoor-lb fur'>Петли</h2>
-            <CardListFur item={loops} />
+            <Suspense fallback={<div>Загрузка...</div>}>
+                <CardListFur item={loops} />
+            </Suspense>
             <Element name='floor'><h2 className='indoor-lb' id='floor'>Напольное покрытие</h2></Element>
             <h2 className='indoor-lb fur'>Для гостинной</h2>
-            <CardListFur item={livingroom} />
+            <Suspense fallback={<div>Загрузка...</div>}>
+                <CardListFur item={livingroom} />
+            </Suspense>
             <h2 className='indoor-lb fur'>Для кухни</h2>
-            <CardListFur item={kitchen} />
+            <Suspense fallback={<div>Загрузка...</div>}>
+                <CardListFur item={kitchen} />
+            </Suspense>
             <h2 className='indoor-lb fur'>Для прихожей</h2>
-            <CardListFur item={hall} />
+            <Suspense fallback={<div>Загрузка...</div>}>
+                <CardListFur item={hall} />
+            </Suspense>
         </div>
     );
 };
