@@ -9,6 +9,7 @@ import { lazy, Suspense } from 'react';
 
 const CardList = lazy(() => import('../components/CardList'))
 const CardListFur = lazy(() => import('../components/CardListFur'))
+
 const Catalog = () => {
     const params = useParams()
     const location = useLocation();
