@@ -532,6 +532,18 @@ import lr5 from './floor/livingroom/5.jpg'
 import lr6 from './floor/livingroom/6.jpg'
 import lr7 from './floor/livingroom/7.jpg'
 import lr8 from './floor/livingroom/8.jpg'
+import lr9 from './floor/livingroom/9.jpg'
+import lr10 from './floor/livingroom/10.jpg'
+import lr11 from './floor/livingroom/11.jpg'
+import lr12 from './floor/livingroom/12.jpg'
+import lr13 from './floor/livingroom/13.jpg'
+import lr14 from './floor/livingroom/14.jpg'
+import lr15 from './floor/livingroom/15.jpg'
+import lr16 from './floor/livingroom/16.jpg'
+import lr17 from './floor/livingroom/17.jpg'
+import lr18 from './floor/livingroom/18.jpg'
+import lr19 from './floor/livingroom/19.jpg'
+import lr20 from './floor/livingroom/20.jpg'
 import kt1 from './floor/kitchen/1.jpg'
 import kt2 from './floor/kitchen/2.jpg'
 import kt3 from './floor/kitchen/3.jpg'
@@ -539,11 +551,35 @@ import kt4 from './floor/kitchen/4.jpg'
 import kt5 from './floor/kitchen/5.jpg'
 import kt6 from './floor/kitchen/6.jpg'
 import kt7 from './floor/kitchen/7.jpg'
+import kt8 from './floor/kitchen/8.jpg'
+import kt9 from './floor/kitchen/9.jpg'
+import kt10 from './floor/kitchen/10.jpg'
+import kt11 from './floor/kitchen/11.jpg'
+import kt12 from './floor/kitchen/12.jpg'
+import kt13 from './floor/kitchen/13.jpg'
+import kt14 from './floor/kitchen/14.jpg'
+import kt15 from './floor/kitchen/15.jpg'
+import kt16 from './floor/kitchen/16.jpg'
 import hl1 from './floor/hall/1.jpg'
 import hl2 from './floor/hall/2.jpg'
 import hl3 from './floor/hall/3.jpg'
 import hl4 from './floor/hall/4.jpg'
 import hl5 from './floor/hall/5.jpg'
+import hl6 from './floor/hall/6.jpg'
+import hl7 from './floor/hall/7.jpg'
+import hl8 from './floor/hall/8.jpg'
+import hl9 from './floor/hall/9.jpg'
+import hl10 from './floor/hall/10.jpg'
+import hl11 from './floor/hall/11.jpg'
+import hl12 from './floor/hall/12.jpg'
+import hl13 from './floor/hall/13.jpg'
+import hl14 from './floor/hall/14.jpg'
+import hl15 from './floor/hall/15.jpg'
+import hl16 from './floor/hall/16.jpg'
+import hl17 from './floor/hall/17.jpg'
+import hl18 from './floor/hall/18.jpg'
+import hl19 from './floor/hall/19.jpg'
+import hl20 from './floor/hall/20.jpg'
 
 
 
@@ -1029,6 +1065,18 @@ d379,
     lr6,
     lr7,
     lr8,
+    lr9,
+    lr10,
+    lr11,
+    lr12,
+    lr13,
+    lr14,
+    lr15,
+    lr16,
+    lr17,
+    lr18,
+    lr19,
+    lr20,
     kt1,
     kt2,
     kt3,
@@ -1036,10 +1084,33 @@ d379,
     kt5,
     kt6,
     kt7,
+    kt8,
+    kt9,
+    kt10,
+    kt11,
+    kt12,
+    kt13,
+    kt14,
+    kt15,
+    kt16,
     hl1,
     hl2,
     hl3,
     hl4,
     hl5,
-    
+    hl6,
+    hl7,
+    hl8,
+    hl9,
+    hl10,
+    hl11,
+    hl12,
+    hl13,
+    hl14,
+    hl15,
+    hl16,
+    hl17,
+    hl18,
+    hl19,
+    hl20,
 }

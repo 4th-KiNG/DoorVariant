@@ -3,7 +3,7 @@ import React, { useEffect } from 'react';
 import { Link, useLocation, useParams } from 'react-router-dom';
 import d1 from '../catalog/indoor/1.jpg'
 import { d10, d11, d12, d13, d14, d15, d16, d17, d18, d19, d2, d20, d21, d22, d23, d24, d26, d25, d27, d28, d29, d3, d30, d31, d32, d33, d34, d35, d36, d37, d38, d39, d4, d40, d41, d5, d6, d7, d8, d9, o1, o2, o3, o4, o5, o6, o7, o8, o9, o10, o11, o12, o13, o14, o15, o16, o17, o18, o19, o20, o21, o22, o23, o24, o25, o26, o27, o28, o29, o30, o31, o32, o33, o34, o35, o36, o37, o38, h1, h2, h3, h4, h5, h6, h7, h8, h9, h10, h11, h12, h13, h14, h15, h16, h17, h18, k1, k2, k3, k4, k5, k6, k7, k8, k9, k10, l1, l2, l3, l4, l5, l6, l7, l8, o93, o46, o47, o48, o49, o50, o51, o52, o53, o54, o55, o56, o57, o58, o59, o60, o61, o62, o63, o65, o66, o67, o68, o69, o70, o71, o72, o73, o74, o75, o76, o77, o78, o79, o80, o81, o82, o83, o84, o85, o86, o87, o88, o89, o90, o91, o92, o94, o95, o96, o97, o98, o99, o100, o101, o102, o103, o104, o105, o106, o107, o108, o109, o110, o111, o112, o113, o114, o116, o117, o118, } from '../catalog';
-import {lr1, lr2, lr3, lr4, lr5, lr6, lr7, lr8, kt1, kt2, kt3, kt4, kt5, kt6, kt7, hl1, hl2, hl3, hl4, hl5} from '../catalog'
+import {lr1, lr2, lr3, lr4, lr5, lr6, lr7, lr8,lr9,lr10,lr11,lr12,lr13,lr14,lr15,lr16,lr17,lr18,lr19,lr20, kt1, kt2, kt3, kt4, kt5, kt6, kt7,kt8,kt9,kt10,kt11,kt12,kt13,kt14,kt15,kt16, hl1, hl2, hl3, hl4, hl5, hl6,hl7,hl8,hl9,hl10,hl11,hl12,hl13,hl14,hl15,hl16,hl17,hl18,hl19,hl20,} from '../catalog'
 import { Element, scroller } from 'react-scroll';
 import { lazy, Suspense } from 'react';
 import {d42, d43, d44, d45, d46, d47, d48, d49, d50, d51,
@@ -565,6 +565,18 @@ const Catalog = () => {
         {id: 6005,img: lr6,price: 0},
         {id: 6006,img: lr7,price: 0},
         {id: 6007,img: lr8,price: 0},
+        {id: 7008, img: lr9, price: 0},
+        {id: 7009, img: lr10, price: 0},
+        {id: 7010, img: lr11, price: 0},
+        {id: 7011, img: lr12, price: 0},
+        {id: 7012, img: lr13, price: 0},
+        {id: 7013, img: lr14, price: 0},
+        {id: 7014, img: lr15, price: 0},
+        {id: 7015, img: lr16, price: 0},
+        {id: 7016, img: lr17, price: 0},
+        {id: 7017, img: lr18, price: 0},
+        {id: 7018, img: lr19, price: 0},
+        {id: 7019, img: lr20, price: 0},
     ]
     const kitchen = [
         {id: 7000,img: kt1,price: 0},
@@ -574,6 +586,15 @@ const Catalog = () => {
         {id: 7004,img: kt5,price: 0},
         {id: 7005,img: kt6,price: 0},
         {id: 7006,img: kt7,price: 0},
+        {id: 7007, img: kt8, price: 0},
+        {id: 7008, img: kt9, price: 0},
+        {id: 7009, img: kt10, price: 0},
+        {id: 7010, img: kt11, price: 0},
+        {id: 7011, img: kt12, price: 0},
+        {id: 7012, img: kt13, price: 0},
+        {id: 7013, img: kt14, price: 0},
+        {id: 7014, img: kt15, price: 0},
+        {id: 7015, img: kt16, price: 0},
     ]
     const hall = [
         {id: 8000,img: hl1,price: 0},
@@ -581,6 +602,21 @@ const Catalog = () => {
         {id: 8002,img: hl3,price: 0},
         {id: 8003,img: hl4,price: 0},
         {id: 8004,img: hl5,price: 0},
+        {id: 8005, img: hl6, price: 0},
+        {id: 8006, img: hl7, price: 0},
+        {id: 8007, img: hl8, price: 0},
+        {id: 8008, img: hl9, price: 0},
+        {id: 8009, img: hl10, price: 0},
+        {id: 8010, img: hl11, price: 0},
+        {id: 8011, img: hl12, price: 0},
+        {id: 8012, img: hl13, price: 0},
+        {id: 8013, img: hl14, price: 0},
+        {id: 8014, img: hl15, price: 0},
+        {id: 8015, img: hl16, price: 0},
+        {id: 8016, img: hl17, price: 0},
+        {id: 8017, img: hl18, price: 0},
+        {id: 8018, img: hl19, price: 0},
+        {id: 8019, img: hl20, price: 0},
     ]
     return (
         <div className='catalog'>
