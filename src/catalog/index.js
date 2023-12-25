@@ -377,117 +377,54 @@ import d376 from './indoor/376.jpg'
 import d377 from './indoor/377.jpg'
 import d378 from './indoor/378.jpg'
 import d379 from './indoor/379.jpg'
-import o1 from './outdoor/1.jpg'
-import o2 from './outdoor/2.jpg'
-import o3 from './outdoor/3.jpg'
-import o4 from './outdoor/4.jpg'
-import o5 from './outdoor/5.jpg'
-import o6 from './outdoor/6.jpg'
-import o7 from './outdoor/7.jpg'
-import o8 from './outdoor/8.jpg'
-import o9 from './outdoor/9.jpg'
-import o10 from './outdoor/10.jpg'
-import o11 from './outdoor/11.jpg'
-import o12 from './outdoor/12.jpg'
-import o13 from './outdoor/13.jpeg'
-import o14 from './outdoor/14.jpeg'
+import o1 from './outdoor/1.png'
+import o2 from './outdoor/2.png'
+import o3 from './outdoor/3.png'
+import o4 from './outdoor/4.png'
+import o5 from './outdoor/5.png'
+import o6 from './outdoor/6.png'
+import o7 from './outdoor/7.png'
+import o8 from './outdoor/8.png'
+import o9 from './outdoor/9.png'
+import o10 from './outdoor/10.png'
+import o11 from './outdoor/11.png'
+import o12 from './outdoor/12.png'
+import o13 from './outdoor/13.png'
+import o14 from './outdoor/14.png'
 import o15 from './outdoor/15.png'
-import o16 from './outdoor/16.jpg'
-import o17 from './outdoor/17.jpg'
+import o16 from './outdoor/16.png'
+import o17 from './outdoor/17.png'
 import o18 from './outdoor/18.png'
-import o19 from './outdoor/19.jpeg'
-import o20 from './outdoor/20.jpeg'
-import o21 from './outdoor/21.jpg'
-import o22 from './outdoor/22.jpg'
-import o23 from './outdoor/23.jpg'
-import o24 from './outdoor/24.jpg'
-import o25 from './outdoor/25.jpg'
-import o26 from './outdoor/26.jpg'
-import o27 from './outdoor/27.jpg'
-import o28 from './outdoor/28.jpg'
-import o29 from './outdoor/29.jpg'
-import o30 from './outdoor/30.jpg'
-import o31 from './outdoor/31.jpg'
-import o32 from './outdoor/32.jpg'
-import o33 from './outdoor/33.jpg'
-import o34 from './outdoor/34.jpg'
-import o35 from './outdoor/35.jpeg'
-import o36 from './outdoor/36.jpeg'
+import o19 from './outdoor/19.png'
+import o20 from './outdoor/20.png'
+import o21 from './outdoor/21.png'
+import o22 from './outdoor/22.png'
+import o23 from './outdoor/23.png'
+import o24 from './outdoor/24.png'
+import o25 from './outdoor/25.png'
+import o26 from './outdoor/26.png'
+import o27 from './outdoor/27.png'
+import o28 from './outdoor/28.png'
+import o29 from './outdoor/29.png'
+import o30 from './outdoor/30.png'
+import o31 from './outdoor/31.png'
+import o32 from './outdoor/32.png'
+import o33 from './outdoor/33.png'
+import o34 from './outdoor/34.png'
+import o35 from './outdoor/35.png'
+import o36 from './outdoor/36.png'
 import o37 from './outdoor/37.png'
-import o38 from './outdoor/38.jpeg'
-import o45 from './outdoor/39.jpg'
-import o46 from './outdoor/40.jpg'
-import o47 from './outdoor/41.jpg'
-import o48 from './outdoor/42.jpg'
-import o49 from './outdoor/43.jpg'
-import o50 from './outdoor/44.jpg'
-import o51 from './outdoor/45.jpg'
-import o52 from './outdoor/46.jpg'
-import o53 from './outdoor/47.jpg'
-import o54 from './outdoor/48.jpg'
-import o55 from './outdoor/49.jpg'
-import o56 from './outdoor/50.jpg'
-import o57 from './outdoor/51.jpg'
-import o58 from './outdoor/52.jpg'
-import o59 from './outdoor/53.jpg'
-import o60 from './outdoor/54.jpg'
-import o61 from './outdoor/55.jpg'
-import o62 from './outdoor/56.jpg'
-import o63 from './outdoor/57.jpg'
-import o64 from './outdoor/58.jpg'
-import o65 from './outdoor/70.jpg'
-import o66 from './outdoor/71.jpg'
-import o67 from './outdoor/72.jpg'
-import o68 from './outdoor/73.jpg'
-import o69 from './outdoor/74.jpg'
-import o70 from './outdoor/75.jpg'
-import o71 from './outdoor/76.jpg'
-import o72 from './outdoor/77.jpg'
-import o73 from './outdoor/78.jpg'
-import o74 from './outdoor/79.jpg'
-import o75 from './outdoor/80.jpg'
-import o76 from './outdoor/81.jpg'
-import o77 from './outdoor/82.jpg'
-import o78 from './outdoor/83.jpg'
-import o79 from './outdoor/84.jpg'
-import o80 from './outdoor/85.jpg'
-import o81 from './outdoor/86.jpg'
-import o82 from './outdoor/87.jpg'
-import o83 from './outdoor/88.jpg'
-import o84 from './outdoor/89.jpg'
-import o85 from './outdoor/90.jpg'
-import o86 from './outdoor/91.jpg'
-import o87 from './outdoor/92.jpg'
-import o88 from './outdoor/93.jpg'
-import o89 from './outdoor/94.jpg'
-import o90 from './outdoor/95.jpg'
-import o91 from './outdoor/96.jpg'
-import o92 from './outdoor/97.jpg'
-import o93 from './outdoor/98.jpg'
-import o94 from './outdoor/99.jpg'
-import o95 from './outdoor/100.jpg'
-import o96 from './outdoor/101.jpg'
-import o97 from './outdoor/102.jpg'
-import o98 from './outdoor/103.jpg'
-import o99 from './outdoor/104.jpg'
-import o100 from './outdoor/105.jpg'
-import o101 from './outdoor/106.jpg'
-import o102 from './outdoor/107.jpg'
-import o103 from './outdoor/108.jpg'
-import o104 from './outdoor/109.jpg'
-import o105 from './outdoor/110.jpg'
-import o106 from './outdoor/111.jpg'
-import o107 from './outdoor/112.jpg'
-import o108 from './outdoor/113.jpg'
-import o109 from './outdoor/114.jpg'
-import o110 from './outdoor/115.jpg'
-import o111 from './outdoor/116.jpg'
-import o112 from './outdoor/117.jpg'
-import o113 from './outdoor/118.jpg'
-import o114 from './outdoor/119.jpg'
-import o116 from './outdoor/121.jpg'
-import o117 from './outdoor/122.jpg'
-import o118 from './outdoor/123.jpg'
+import o38 from './outdoor/38.png'
+import o39 from './outdoor/39.png'
+import o40 from './outdoor/40.png'
+import o41 from './outdoor/41.png'
+import o42 from './outdoor/42.png'
+import o43 from './outdoor/43.png'
+import o44 from './outdoor/44.png'
+import o45 from './outdoor/45.png'
+import o46 from './outdoor/46.png'
+import o47 from './outdoor/47.png'
+import o48 from './outdoor/48.png'
 import h1 from './fur/handles/1.jpeg'
 import h2 from './fur/handles/2.jpg'
 import h3 from './fur/handles/3.jpg'
@@ -629,8 +566,7 @@ export{
     d62, d63, d64, d65, d66, d67, d68, d69, d70, d71,
     d72, d73, d74, d75, d76, d77, d78, d79, d80, d81,
     d82, d83, d84, d85, d86, d87, d88, d89, d90, d91,
-    d92, d93, d94, d95, d96, d97, d98,
-d99,
+    d92, d93, d94, d95, d96, d97, d98, d99,
 d100,
 d101,
 d102,
@@ -911,116 +847,54 @@ d376,
 d377,
 d378,
 d379,
-    o1,
-    o2,
-    o3,
-    o4,
-    o5,
-    o6,
-    o7,
-    o8,
-    o9,
-    o10,
-    o11,
-    o12,
-    o13,
-    o14,
-    o15,
-    o16,
-    o17,
-    o18,
-    o19,
-    o20,
-    o21,
-    o22,
-    o23,
-    o24,
-    o25,
-    o26,
-    o27,
-    o28,
-    o29,
-    o30,
-    o31,
-    o32,
-    o33,
-    o34,
-    o35,
-    o36,
-    o37,
-    o38,
-    o46,
-    o47,
-    o48,
-    o49,
-    o50,
-    o51,
-    o52,
-    o53,
-    o54,
-    o55,
-    o56,
-    o57,
-    o58,
-    o59,
-    o60,
-    o61,
-    o62,
-    o63,
-    o64,
-    o65,
-    o66,
-    o67,
-    o68,
-    o69,
-    o70,
-    o71,
-    o72,
-    o73,
-    o74,
-    o75,
-    o76,
-    o77,
-    o78,
-    o79,
-    o80,
-    o81,
-    o82,
-    o83,
-    o84,
-    o85,
-    o86,
-    o87,
-    o88,
-    o89,
-    o90,
-    o91,
-    o92,
-    o93,
-    o94,
-    o95,
-    o96,
-    o97,
-    o98,
-    o99,
-    o100,
-    o101,
-    o102,
-    o103,
-    o104,
-    o105,
-    o106,
-    o107,
-    o108,
-    o109,
-    o110,
-    o111,
-    o112,
-    o113,
-    o114,
-    o116,
-    o117,
-    o118,
+o1,
+o2,
+o3,
+o4,
+o5,
+o6,
+o7,
+o8,
+o9,
+o10,
+o11,
+o12,
+o13,
+o14,
+o15,
+o16,
+o17,
+o18,
+o19,
+o20,
+o21,
+o22,
+o23,
+o24,
+o25,
+o26,
+o27,
+o28,
+o29,
+o30,
+o31,
+o32,
+o33,
+o34,
+o35,
+o36,
+o37,
+o38,
+o39,
+o40,
+o41,
+o42,
+o43,
+o44,
+o45,
+o46,
+o47,
+o48,
     h1,
     h2,
     h3,
