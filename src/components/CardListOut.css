@@ -96,13 +96,16 @@
 }
 @media (max-width: 400px){
     .img-of-out{
-        width: 110px;
+        width: 120px;
         height: 140px;
     }
     .element-out{
-        width: 110px;
+        width: 120px;
         height: 155px;
         border-radius: 0 0 8px 8px;
+    }
+    .doorlist{
+        gap: 35px;
     }
 }
 @media (max-width: 350px){
