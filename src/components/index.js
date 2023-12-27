@@ -6,11 +6,13 @@ import Footer from './Footer.jsx'
 import CardListFur from './CardListFur.jsx'
 import CardList from './CardList'
 import Map from './Map'
+import ScrollToTopButton from './ScrollToTopButton'
 export{
     Header,
     MainPage,
     Slider,
     Slider1,
     Footer,
-    Map
+    Map,
+    ScrollToTopButton
 }

@@ -2,6 +2,7 @@ import './Catalog.css'
 import React, { useEffect } from 'react';
 import { Link, useLocation, useParams } from 'react-router-dom';
 import d1 from '../catalog/indoor/1.jpg'
+import { ScrollToTopButton } from '../components';
 import { d10, d11, d12, d13, d14, d15, d16, d17, d18, d19, d2, d20, d21, d22, d23, d24, d26, d25, d27, d28, d29, d3, d30, d31, d32, d33, d34, d35, d36, d37, d38, d39, d4, d40, d41, d5, d6, d7, d8, d9, o1, o2, o3, o4, o5, o6, o7, o8, o9, o10, o11, o12, o13, o14, o15, o16, o17, o18, o19, o20, o21, o22, o23, o24, o25, o26, o27, o28, o29, o30, o31, o32, o33, o34, o35, o36, o37, o38, o39,o40,o41,o42,o43,o44,o45,o46,o47,o48,h1, h2, h3, h4, h5, h6, h7, h8, h9, h10, h11, h12, h13, h14, h15, h16, h17, h18, k1, k2, k3, k4, k5, k6, k7, k8, k9, k10, l1, l2, l3, l4, l5, l6, l7, l8} from '../catalog';
 import {lr1, lr2, lr3, lr4, lr5, lr6, lr7, lr8,lr9,lr10,lr11,lr12,lr13,lr14,lr15,lr16,lr17,lr18,lr19,lr20, kt1, kt2, kt3, kt4, kt5, kt6, kt7,kt8,kt9,kt10,kt11,kt12,kt13,kt14,kt15,kt16, hl1, hl2, hl3, hl4, hl5, hl6,hl7,hl8,hl9,hl10,hl11,hl12,hl13,hl14,hl15,hl16,hl17,hl18,hl19,hl20,} from '../catalog'
 import { Element, scroller } from 'react-scroll';
@@ -31,6 +32,7 @@ const Catalog = () => {
             })
         }
     }, [location.search])
+    
     const outdoors =[
         {id: 1000, img: o1, price: 0},
         {id: 1001, img: o2, price: 0},
@@ -601,6 +603,7 @@ const Catalog = () => {
             <Suspense fallback={<div>Загрузка...</div>}>
                 <CardListFur item={hall} />
             </Suspense>
+            <ScrollToTopButton></ScrollToTopButton>
         </div>
     );
 };

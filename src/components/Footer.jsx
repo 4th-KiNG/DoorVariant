@@ -4,7 +4,7 @@ import { avito, doorIco, email } from '../assets';
 
 function Footer(){
     return(
-        <div className='footer'>
+        <div className='footer' id='footerid'>
             <div className='avito'>
                 <img src={avito} alt="" className='avito-img' />
                 <a href="https://www.avito.ru/krasnodar/remont_i_stroitelstvo/dveri_mezhkomnatnye_2825941538" className='avito-txt'>Мы на Авито</a>

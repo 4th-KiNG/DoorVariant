@@ -25,6 +25,7 @@ import doorCard from './doorCard.jpg'
 import doorCard1 from './doorCard1.jpg'
 import doorCard2 from './doorCard2.png'
 import doorCard3 from './doorCard3.png'
+import arrow from './arrow.png'
 
 export{
     door,
@@ -53,5 +54,6 @@ export{
     doorCard,
     doorCard1,
     doorCard2,
-    doorCard3
+    doorCard3,
+    arrow
 }
