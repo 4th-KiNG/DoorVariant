@@ -14,7 +14,7 @@ import {d42, d43, d44, d45, d46, d47, d48, d49, d50, d51,
     d82, d83, d84, d85, d86, d87, d88, d89, d90, d91,
     d92, d93, d94, d95, d96, d97, d98,
     d99, d100, d101, d102, d103, d104, d105, d106, d107, d108, d109, d110, d111, d112, d113, d114, d115, d116, d117, d118, d119, d120, d121, d122, d123, d124, d125, d126, d127, d128, d129, d130, d131, d132, d133, d134, d135, d136, d137, d138, d139, d140, d141, d142, d143, d144, d145, d146, d147, d148, d149, d150, d151, d152, d153, d154, d155, d156, d157, d158, d159, d160, d161, d162, d163, d164, d165, d166, d167, d168, d169, d170, d171, d172, d173, d174, d175, d176, d177, d178, d179, d180, d181, d182, d183, d184, d185, d186, d187, d188, d189, d190, d191, d192, d193, d194, d195, d196, d197, d198, d199, d200, d201, d202, d203, d204, d205, d206, d207, d208, d209, d210, d211, d212, d213, d214, d215, d216, d217, d218, d219, d220, d221, d222, d223, d224, d225, d226, d227, d228, d229, d230, d231, d232, d233, d234, d235, d236, d237, d238, d239, d240, d241, d242, d243, d244, d245, d246, d247, d248, d249, d250, d251, d252, d253, d254, d255, d256, d257, d258, d259, d260, d261, d262, d263, d264, d265, d266, d267, d268, d269, d270, d271, d272, d273, d274, d275, d276, d277, d278, d279, d280, d281, d282, d283, d284, d285, d286, d287, d288, d289, d290, d291, d292, d293, d294, d295, d296, d297, d298, d299, d300, d301, d302, d303, d304, d305, d306, d307, d308, d309, d310, d311, d312, d313, d314, d315, d316, d317, d318, d319, d320, d321, d322, d323, d324, d325, d326, d327, d328, d329, d330, d331, d332, d333, d334, d335, d336, d337, d338, d339, d340, d341, d342, d343, d344, d345, d346, d347, d348, d349, d350, d351, d352, d353, d354, d355, d356, d357, d358, d359, d360, d361, d362, d363, d364, d365, d366, d367, d368, d369, d370, d371, d372, d373, d374, d375, d376, d377, d378, d379, } from '../catalog';
-import {lNora1,lNora2,lNora3,lNora4,lNora5,lNora6,lNora7,lNora8,lNora9,lNora10,lNora11,lNora12,lNora13,lNora14,lNora15,lNora16,lNora17,lNora18,lNora19,lNora20,lNora21,lNora22,lNora23,lNora24,lNora25,lDeco1,lDeco2,lDeco3,lDeco4,lDeco5,lDeco6,lDeco7,lDeco8,lDeco9,lDeco10,lDeco11,lDeco12,lDeco13,lAGB1,lAGB2,lAGB3,lAGB4,lAGB5,lAGB6,lAGB7,lAGB8,lAGB9,lAGB10,lAGB11,lAGB12,lAGB13,lAGB14,lAGB15,lAGB16,hnora1,hnora2,hnora3,hnora4,hnora5,hnora6,hnora7,hnora8,hnora9,hnora10,hnora11,hnora12,hnora13,hnora14,hnora15,hnora16,hnora17,hnora18,hnora19,hnora20,hnora21,hnora22,hnora23,hnora24,hnora25,hnora26,hnora27,hnora28,hnora29,hnora30,hnora31,hnora32,hnora33,hnora34,hnora35,hnora36,hmsm1,hmsm2,hmsm3,hmsm4,hmsm5,hmsm6,hmsm7,hmsm8,hmsm9,hmsm10,hmsm11,hmsm12,hmsm13,hmsm14,hmsm15,hmsm16,hmsm17,hmsm18,hmsm19,hmsm20,hmsm21,hmsm22,hmsm23,hmsm24,hmsm25,hmsm26,hmsm27,hmsm28,hmsm29,hmsm30,hmsm31,hmsm32,hmsm33,hmsm34,hmsm35,hmsm36,hmsm37,hmsm38,hmsm39,hmsm40,hmsm41,hmsm42,hmsm43,hmsm44,hmsm45,hmsm46,hmsm47,hmsm48,hmsm49,hmsm50,hmsm51,hmsm52,hmsm53,hmsm54,hmsm55,hmsm56,hmsm57,hmsm58,hmsm59,hmsm60,hmsm61,hmsm62,hmsm63,hmsm64,hmsm65,hmsm66,hmsm67,hmsm68,hmsm69,hmsm70,hmsm71,hmsm72,hmsm73,hmsm74,hmsm75,hmsm76,hmsm77,hmsm78,hmsm79,hmsm80,hmsm81,hmsm82,hmsm83,hmsm84,hmsm85,hmsm86,hmsm87,hmsm88,hmsm89,hmsm90,hmsm91,hmsm92,hmsm93,hmsm94,hmsm95,hmsm96,hmsm97,hmsm98,hmsm99,hmsm100,hmsm101,hmsm102,hmsm103,hmsm104,hmsm105,hmsm106,hmsm107,hmsm108,hmsm109,hmsm110,hmsm111,hmsm112,hmsm113,hdec1,hdec2,hdec3,hdec4,hdec5,hdec6,hdec7,hdec8,hdec9,hdec10,hdec11,hdec12,hdec13,hdec14,hdec15,hdec16,hdec17,hdec18,hdec19,hdec20,hdec21,hdec22,hdec23,hdec24,hdec25,hdec26,hdec27,hdec28,hdec29,hdec30,hdec31,hdec32,hdec33,hdec34,hdec35,hdec36,hdec37,hdec38,hdec39,hdec40,hdec41,hdec42,hdec43,hdec44,hdec45,hdec46,hdec47,hdec48,hdec49,hdec50,hdec51,hdec52,hdec53,hdec54,hdec55,hdec56,hdec57,hdec58,hdec59,hdec60,hdec61,hdec62,hdec63,hdec64,hdec65,hdec66,hdec67,hdec68,hdec69,hdec70,hdec71,hdec72,hdec73,hdec74,hdec75,hdec76,hdec77,hdec78,hdec79,hdec80,hdec81,hdec82} from '../catalog'
+import {hVantage1,hVantage2,hVantage3,hVantage4,hVantage5,hVantage6,hVantage7,hVantage8,hVantage9,hVantage10,hVantage11,hVantage12,hVantage13,hVantage14,hVantage15,hVantage16,hVantage17,hVantage18,hVantage19,hVantage20,hVantage21,hVantage22,hVantage23,hVantage24,hVantage25,hVantage26,hVantage27,hVantage28,hVantage29,hVantage30,hVantage31,hVantage32,hVantage33,hVantage34,hVantage35,hVantage36,hVantage37,hVantage38,hVantage39,hVantage40,hVantage41,hVantage42,hVantage43,hVantage44,hVantage45,hVantage46,hVantage47,hVantage48,hVantage49,hVantage50,hVantage51,hVantage52,hVantage53,hVantage54,hVantage55,hVantage56,hVantage57,hVantage58,hVantage59,hVantage60,hVantage61,hVantage62,hVantage63,hVantage64,hVantage65,hVantage66,hVantage67,hVantage68,hVantage69,hVantage70,hVantage71,hVantage72,hVantage73,hVantage74,hVantage75,hVantage76,hVantage77,hVantage78,hVantage79,hVantage80,hVantage81,hVantage82,hVantage83,hVantage84,hVantage85,hVantage86,hVantage87,hVantage88,hVantage89,hVantage90,hVantage91,hVantage92,hVantage93,hVantage94,hVantage95,hVantage96,hVantage97,hVantage98,hVantage99,hVantage100,hVantage101,hVantage102,hVantage103,hVantage104,hVantage105,hVantage106,hVantage107,hVantage108,hVantage109,hVantage110,hVantage111,hVantage112,hVantage113,hVantage114,hVantage115,hVantage116,hVantage117,hVantage118,hVantage119,hVantage120,hVantage121,hVantage122,hVantage123,hVantage124,hVantage125,hVantage126,hVantage127,hVantage128,hVantage129,hVantage130,hVantage131,hVantage132,hVantage133,hVantage134,hVantage135,hVantage136,hVantage137,hVantage138,hVantage139,hVantage140,hVantage141,hVantage142,hVantage143,hVantage144,hVantage145,hVantage146,hVantage147,hVantage148,hVantage149,hVantage150,hVantage151,hVantage152,hVantage153,hVantage154,hVantage155,hVantage156,hVantage157,hVantage158,hVantage159,hVantage160,hVantage161,hVantage162,hVantage163,hVantage164,hVantage165,hVantage166,hVantage167,hVantage168,hVantage169,hVantage170,hVantage171,hVantage172,hVantage173,hVantage174,hVantage175,hVantage176,hVantage177,hVantage178,hVantage179,hVantage180,hVantage181,hVantage182,hVantage183,hVantage184,hVantage185,hVantage186,hVantage187,hVantage188,hVantage189,hVantage190,hVantage191,hVantage192,hVantage193,hVantage194,hVantage195,hVantage196,hVantage197,hVantage198,hVantage199,hVantage200,hVantage201,lMSM1,lMSM2,lMSM3,lMSM4,lMSM5,lMSM6,lMSM7,lMSM8,lMSM9,lMSM10,lMSM11,lMSM12,lMSM13,lMSM14,lMSM15,lMSM16,lMSM17,lMSM18,lMSM19,lMSM20,lMSM21,lMSM22,lNora1,lNora2,lNora3,lNora4,lNora5,lNora6,lNora7,lNora8,lNora9,lNora10,lNora11,lNora12,lNora13,lNora14,lNora15,lNora16,lNora17,lNora18,lNora19,lNora20,lNora21,lNora22,lNora23,lNora24,lNora25,lDeco1,lDeco2,lDeco3,lDeco4,lDeco5,lDeco6,lDeco7,lDeco8,lDeco9,lDeco10,lDeco11,lDeco12,lDeco13,lAGB1,lAGB2,lAGB3,lAGB4,lAGB5,lAGB6,lAGB7,lAGB8,lAGB9,lAGB10,lAGB11,lAGB12,lAGB13,lAGB14,lAGB15,lAGB16,hnora1,hnora2,hnora3,hnora4,hnora5,hnora6,hnora7,hnora8,hnora9,hnora10,hnora11,hnora12,hnora13,hnora14,hnora15,hnora16,hnora17,hnora18,hnora19,hnora20,hnora21,hnora22,hnora23,hnora24,hnora25,hnora26,hnora27,hnora28,hnora29,hnora30,hnora31,hnora32,hnora33,hnora34,hnora35,hnora36,hmsm1,hmsm2,hmsm3,hmsm4,hmsm5,hmsm6,hmsm7,hmsm8,hmsm9,hmsm10,hmsm11,hmsm12,hmsm13,hmsm14,hmsm15,hmsm16,hmsm17,hmsm18,hmsm19,hmsm20,hmsm21,hmsm22,hmsm23,hmsm24,hmsm25,hmsm26,hmsm27,hmsm28,hmsm29,hmsm30,hmsm31,hmsm32,hmsm33,hmsm34,hmsm35,hmsm36,hmsm37,hmsm38,hmsm39,hmsm40,hmsm41,hmsm42,hmsm43,hmsm44,hmsm45,hmsm46,hmsm47,hmsm48,hmsm49,hmsm50,hmsm51,hmsm52,hmsm53,hmsm54,hmsm55,hmsm56,hmsm57,hmsm58,hmsm59,hmsm60,hmsm61,hmsm62,hmsm63,hmsm64,hmsm65,hmsm66,hmsm67,hmsm68,hmsm69,hmsm70,hmsm71,hmsm72,hmsm73,hmsm74,hmsm75,hmsm76,hmsm77,hmsm78,hmsm79,hmsm80,hmsm81,hmsm82,hmsm83,hmsm84,hmsm85,hmsm86,hmsm87,hmsm88,hmsm89,hmsm90,hmsm91,hmsm92,hmsm93,hmsm94,hmsm95,hmsm96,hmsm97,hmsm98,hmsm99,hmsm100,hmsm101,hmsm102,hmsm103,hmsm104,hmsm105,hmsm106,hmsm107,hmsm108,hmsm109,hmsm110,hmsm111,hmsm112,hmsm113,hdec1,hdec2,hdec3,hdec4,hdec5,hdec6,hdec7,hdec8,hdec9,hdec10,hdec11,hdec12,hdec13,hdec14,hdec15,hdec16,hdec17,hdec18,hdec19,hdec20,hdec21,hdec22,hdec23,hdec24,hdec25,hdec26,hdec27,hdec28,hdec29,hdec30,hdec31,hdec32,hdec33,hdec34,hdec35,hdec36,hdec37,hdec38,hdec39,hdec40,hdec41,hdec42,hdec43,hdec44,hdec45,hdec46,hdec47,hdec48,hdec49,hdec50,hdec51,hdec52,hdec53,hdec54,hdec55,hdec56,hdec57,hdec58,hdec59,hdec60,hdec61,hdec62,hdec63,hdec64,hdec65,hdec66,hdec67,hdec68,hdec69,hdec70,hdec71,hdec72,hdec73,hdec74,hdec75,hdec76,hdec77,hdec78,hdec79,hdec80,hdec81,hdec82} from '../catalog'
 
 
 const CardList = lazy(() => import('../components/CardList'))
@@ -695,6 +695,209 @@ const Catalog = () => {
         {id: 3230, img: hnora35, price: 0},
         {id: 3231, img: hnora36, price: 0},
     ]
+    const handlesVantage = [
+        {id: 3232, img: hVantage1, price: 0},
+        {id: 3233, img: hVantage2, price: 0},
+        {id: 3234, img: hVantage3, price: 0},
+        {id: 3235, img: hVantage4, price: 0},
+        {id: 3236, img: hVantage5, price: 0},
+        {id: 3237, img: hVantage6, price: 0},
+        {id: 3238, img: hVantage7, price: 0},
+        {id: 3239, img: hVantage8, price: 0},
+        {id: 3240, img: hVantage9, price: 0},
+        {id: 3241, img: hVantage10, price: 0},
+        {id: 3242, img: hVantage11, price: 0},
+        {id: 3243, img: hVantage12, price: 0},
+        {id: 3244, img: hVantage13, price: 0},
+        {id: 3245, img: hVantage14, price: 0},
+        {id: 3246, img: hVantage15, price: 0},
+        {id: 3247, img: hVantage16, price: 0},
+        {id: 3248, img: hVantage17, price: 0},
+        {id: 3249, img: hVantage18, price: 0},
+        {id: 3250, img: hVantage19, price: 0},
+        {id: 3251, img: hVantage20, price: 0},
+        {id: 3252, img: hVantage21, price: 0},
+        {id: 3253, img: hVantage22, price: 0},
+        {id: 3254, img: hVantage23, price: 0},
+        {id: 3255, img: hVantage24, price: 0},
+        {id: 3256, img: hVantage25, price: 0},
+        {id: 3257, img: hVantage26, price: 0},
+        {id: 3258, img: hVantage27, price: 0},
+        {id: 3259, img: hVantage28, price: 0},
+        {id: 3260, img: hVantage29, price: 0},
+        {id: 3261, img: hVantage30, price: 0},
+        {id: 3262, img: hVantage31, price: 0},
+        {id: 3263, img: hVantage32, price: 0},
+        {id: 3264, img: hVantage33, price: 0},
+        {id: 3265, img: hVantage34, price: 0},
+        {id: 3266, img: hVantage35, price: 0},
+        {id: 3267, img: hVantage36, price: 0},
+        {id: 3268, img: hVantage37, price: 0},
+        {id: 3269, img: hVantage38, price: 0},
+        {id: 3270, img: hVantage39, price: 0},
+        {id: 3271, img: hVantage40, price: 0},
+        {id: 3272, img: hVantage41, price: 0},
+        {id: 3273, img: hVantage42, price: 0},
+        {id: 3274, img: hVantage43, price: 0},
+        {id: 3275, img: hVantage44, price: 0},
+        {id: 3276, img: hVantage45, price: 0},
+        {id: 3277, img: hVantage46, price: 0},
+        {id: 3278, img: hVantage47, price: 0},
+        {id: 3279, img: hVantage48, price: 0},
+        {id: 3280, img: hVantage49, price: 0},
+        {id: 3281, img: hVantage50, price: 0},
+        {id: 3282, img: hVantage51, price: 0},
+        {id: 3283, img: hVantage52, price: 0},
+        {id: 3284, img: hVantage53, price: 0},
+        {id: 3285, img: hVantage54, price: 0},
+        {id: 3286, img: hVantage55, price: 0},
+        {id: 3287, img: hVantage56, price: 0},
+        {id: 3288, img: hVantage57, price: 0},
+        {id: 3289, img: hVantage58, price: 0},
+        {id: 3290, img: hVantage59, price: 0},
+        {id: 3291, img: hVantage60, price: 0},
+        {id: 3292, img: hVantage61, price: 0},
+        {id: 3293, img: hVantage62, price: 0},
+        {id: 3294, img: hVantage63, price: 0},
+        {id: 3295, img: hVantage64, price: 0},
+        {id: 3296, img: hVantage65, price: 0},
+        {id: 3297, img: hVantage66, price: 0},
+        {id: 3298, img: hVantage67, price: 0},
+        {id: 3299, img: hVantage68, price: 0},
+        {id: 3300, img: hVantage69, price: 0},
+        {id: 3301, img: hVantage70, price: 0},
+        {id: 3302, img: hVantage71, price: 0},
+        {id: 3303, img: hVantage72, price: 0},
+        {id: 3304, img: hVantage73, price: 0},
+        {id: 3305, img: hVantage74, price: 0},
+        {id: 3306, img: hVantage75, price: 0},
+        {id: 3307, img: hVantage76, price: 0},
+        {id: 3308, img: hVantage77, price: 0},
+        {id: 3309, img: hVantage78, price: 0},
+        {id: 3310, img: hVantage79, price: 0},
+        {id: 3311, img: hVantage80, price: 0},
+        {id: 3312, img: hVantage81, price: 0},
+        {id: 3313, img: hVantage82, price: 0},
+        {id: 3314, img: hVantage83, price: 0},
+        {id: 3315, img: hVantage84, price: 0},
+        {id: 3316, img: hVantage85, price: 0},
+        {id: 3317, img: hVantage86, price: 0},
+        {id: 3318, img: hVantage87, price: 0},
+        {id: 3319, img: hVantage88, price: 0},
+        {id: 3320, img: hVantage89, price: 0},
+        {id: 3321, img: hVantage90, price: 0},
+        {id: 3322, img: hVantage91, price: 0},
+        {id: 3323, img: hVantage92, price: 0},
+        {id: 3324, img: hVantage93, price: 0},
+        {id: 3325, img: hVantage94, price: 0},
+        {id: 3326, img: hVantage95, price: 0},
+        {id: 3327, img: hVantage96, price: 0},
+        {id: 3328, img: hVantage97, price: 0},
+        {id: 3329, img: hVantage98, price: 0},
+        {id: 3330, img: hVantage99, price: 0},
+        {id: 3331, img: hVantage100, price: 0},
+        {id: 3332, img: hVantage101, price: 0},
+        {id: 3333, img: hVantage102, price: 0},
+        {id: 3334, img: hVantage103, price: 0},
+        {id: 3335, img: hVantage104, price: 0},
+        {id: 3336, img: hVantage105, price: 0},
+        {id: 3337, img: hVantage106, price: 0},
+        {id: 3338, img: hVantage107, price: 0},
+        {id: 3339, img: hVantage108, price: 0},
+        {id: 3340, img: hVantage109, price: 0},
+        {id: 3341, img: hVantage110, price: 0},
+        {id: 3342, img: hVantage111, price: 0},
+        {id: 3343, img: hVantage112, price: 0},
+        {id: 3344, img: hVantage113, price: 0},
+        {id: 3345, img: hVantage114, price: 0},
+        {id: 3346, img: hVantage115, price: 0},
+        {id: 3347, img: hVantage116, price: 0},
+        {id: 3348, img: hVantage117, price: 0},
+        {id: 3349, img: hVantage118, price: 0},
+        {id: 3350, img: hVantage119, price: 0},
+        {id: 3351, img: hVantage120, price: 0},
+        {id: 3352, img: hVantage121, price: 0},
+        {id: 3353, img: hVantage122, price: 0},
+        {id: 3354, img: hVantage123, price: 0},
+        {id: 3355, img: hVantage124, price: 0},
+        {id: 3356, img: hVantage125, price: 0},
+        {id: 3357, img: hVantage126, price: 0},
+        {id: 3358, img: hVantage127, price: 0},
+        {id: 3359, img: hVantage128, price: 0},
+        {id: 3360, img: hVantage129, price: 0},
+        {id: 3361, img: hVantage130, price: 0},
+        {id: 3362, img: hVantage131, price: 0},
+        {id: 3363, img: hVantage132, price: 0},
+        {id: 3364, img: hVantage133, price: 0},
+        {id: 3365, img: hVantage134, price: 0},
+        {id: 3366, img: hVantage135, price: 0},
+        {id: 3367, img: hVantage136, price: 0},
+        {id: 3368, img: hVantage137, price: 0},
+        {id: 3369, img: hVantage138, price: 0},
+        {id: 3370, img: hVantage139, price: 0},
+        {id: 3371, img: hVantage140, price: 0},
+        {id: 3372, img: hVantage141, price: 0},
+        {id: 3373, img: hVantage142, price: 0},
+        {id: 3374, img: hVantage143, price: 0},
+        {id: 3375, img: hVantage144, price: 0},
+        {id: 3376, img: hVantage145, price: 0},
+        {id: 3377, img: hVantage146, price: 0},
+        {id: 3378, img: hVantage147, price: 0},
+        {id: 3379, img: hVantage148, price: 0},
+        {id: 3380, img: hVantage149, price: 0},
+        {id: 3381, img: hVantage150, price: 0},
+        {id: 3382, img: hVantage151, price: 0},
+        {id: 3383, img: hVantage152, price: 0},
+        {id: 3384, img: hVantage153, price: 0},
+        {id: 3385, img: hVantage154, price: 0},
+        {id: 3386, img: hVantage155, price: 0},
+        {id: 3387, img: hVantage156, price: 0},
+        {id: 3388, img: hVantage157, price: 0},
+        {id: 3389, img: hVantage158, price: 0},
+        {id: 3390, img: hVantage159, price: 0},
+        {id: 3391, img: hVantage160, price: 0},
+        {id: 3392, img: hVantage161, price: 0},
+        {id: 3393, img: hVantage162, price: 0},
+        {id: 3394, img: hVantage163, price: 0},
+        {id: 3395, img: hVantage164, price: 0},
+        {id: 3396, img: hVantage165, price: 0},
+        {id: 3397, img: hVantage166, price: 0},
+        {id: 3398, img: hVantage167, price: 0},
+        {id: 3399, img: hVantage168, price: 0},
+        {id: 3400, img: hVantage169, price: 0},
+        {id: 3401, img: hVantage170, price: 0},
+        {id: 3402, img: hVantage171, price: 0},
+        {id: 3403, img: hVantage172, price: 0},
+        {id: 3404, img: hVantage173, price: 0},
+        {id: 3405, img: hVantage174, price: 0},
+        {id: 3406, img: hVantage175, price: 0},
+        {id: 3407, img: hVantage176, price: 0},
+        {id: 3408, img: hVantage177, price: 0},
+        {id: 3409, img: hVantage178, price: 0},
+        {id: 3410, img: hVantage179, price: 0},
+        {id: 3411, img: hVantage180, price: 0},
+        {id: 3412, img: hVantage181, price: 0},
+        {id: 3413, img: hVantage182, price: 0},
+        {id: 3414, img: hVantage183, price: 0},
+        {id: 3415, img: hVantage184, price: 0},
+        {id: 3416, img: hVantage185, price: 0},
+        {id: 3417, img: hVantage186, price: 0},
+        {id: 3418, img: hVantage187, price: 0},
+        {id: 3419, img: hVantage188, price: 0},
+        {id: 3420, img: hVantage189, price: 0},
+        {id: 3421, img: hVantage190, price: 0},
+        {id: 3422, img: hVantage191, price: 0},
+        {id: 3423, img: hVantage192, price: 0},
+        {id: 3424, img: hVantage193, price: 0},
+        {id: 3425, img: hVantage194, price: 0},
+        {id: 3426, img: hVantage195, price: 0},
+        {id: 3427, img: hVantage196, price: 0},
+        {id: 3428, img: hVantage197, price: 0},
+        {id: 3429, img: hVantage198, price: 0},
+        {id: 3430, img: hVantage199, price: 0},
+        {id: 3431, img: hVantage200, price: 0},
+        {id: 3432, img: hVantage201, price: 0},
+    ]
     const locksAGB = [
         {id: 4001, img: lAGB1, price: 0},
         {id: 4002, img: lAGB2, price: 0},
@@ -754,6 +957,30 @@ const Catalog = () => {
         {id: 4052, img: lNora23, price: 0},
         {id: 4053, img: lNora24, price: 0},
         {id: 4054, img: lNora25, price: 0},
+    ]
+    const locksMSM = [
+        {id: 4055, img: lMSM1, price: 0},
+        {id: 4056, img: lMSM2, price: 0},
+        {id: 4057, img: lMSM3, price: 0},
+        {id: 4058, img: lMSM4, price: 0},
+        {id: 4059, img: lMSM5, price: 0},
+        {id: 4060, img: lMSM6, price: 0},
+        {id: 4061, img: lMSM7, price: 0},
+        {id: 4062, img: lMSM8, price: 0},
+        {id: 4063, img: lMSM9, price: 0},
+        {id: 4064, img: lMSM10, price: 0},
+        {id: 4065, img: lMSM11, price: 0},
+        {id: 4066, img: lMSM12, price: 0},
+        {id: 4067, img: lMSM13, price: 0},
+        {id: 4068, img: lMSM14, price: 0},
+        {id: 4069, img: lMSM15, price: 0},
+        {id: 4070, img: lMSM16, price: 0},
+        {id: 4071, img: lMSM17, price: 0},
+        {id: 4072, img: lMSM18, price: 0},
+        {id: 4073, img: lMSM19, price: 0},
+        {id: 4074, img: lMSM20, price: 0},
+        {id: 4075, img: lMSM21, price: 0},
+        {id: 4076, img: lMSM22, price: 0},
     ]
     const loops = [
         {id: 5000,img: l1,price: 0},
@@ -837,47 +1064,51 @@ const Catalog = () => {
             </div>
             <h1 className='catalog-lb'>Каталог</h1>
             <Element name='outdoor'><h2 className='indoor-lb' id='outdoor'>Входные двери</h2></Element>
-            <Suspense fallback={<div>Загрузка...</div>}>
+            <Suspense fallback={<div className='load-txt'>Загрузка...</div>}>
                 <CardListOut item={outdoors} />
             </Suspense>
             <Element name='indoor'><h2 className='indoor-lb' id='indoor'>Межкомнатные двери</h2></Element>
-            <Suspense fallback={<div>Загрузка...</div>}>
+            <Suspense fallback={<div className='load-txt'>Загрузка...</div>}>
                 <CardList item={indoors} />
             </Suspense>
             <Element name='fur'><h2 className='indoor-lb' id='fur'>Фуринитура</h2></Element>
             <h2 className='indoor-lb fur'>Дверные ручки</h2>
-            <Suspense fallback={<div>Загрузка...</div>}>
+            <Suspense fallback={<div className='load-txt'>Загрузка...</div>}>
                 <h2 className='indoor-lb fur'>Code Deco</h2>
                 <CardListFur item={handlesDec} />
                 <h2 className='indoor-lb fur'>MSM</h2>
                 <CardListFur item={handlesMSM} />
                 <h2 className='indoor-lb fur'>Нора-М</h2>
                 <CardListFur item={handlesNora} />
+                <h2 className='indoor-lb fur'>Vantage</h2>
+                <CardListFur item={handlesVantage} />
             </Suspense>
             <h2 className='indoor-lb fur'>Замки</h2>
-            <Suspense fallback={<div>Загрузка...</div>}>
+            <Suspense fallback={<div className='load-txt'>Загрузка...</div>}>
                 <h2 className='indoor-lb fur'>AGB</h2>
                 <CardListFur item={locksAGB} />
                 <h2 className='indoor-lb fur'>Code Deco</h2>
                 <CardListFur item={locksDeco} />
                 <h2 className='indoor-lb fur'>Нора М</h2>
                 <CardListFur item={locksNora} />
+                <h2 className='indoor-lb fur'>MSM</h2>
+                <CardListFur item={locksMSM} />
             </Suspense>
             <h2 className='indoor-lb fur'>Петли</h2>
-            <Suspense fallback={<div>Загрузка...</div>}>
+            <Suspense fallback={<div className='load-txt'>Загрузка...</div>}>
                 <CardListFur item={loops} />
             </Suspense>
             <Element name='floor'><h2 className='indoor-lb' id='floor'>Напольное покрытие</h2></Element>
             <h2 className='indoor-lb fur'>Для гостинной</h2>
-            <Suspense fallback={<div>Загрузка...</div>}>
+            <Suspense fallback={<div className='load-txt'>Загрузка...</div>}>
                 <CardListFur item={livingroom} />
             </Suspense>
             <h2 className='indoor-lb fur'>Для кухни</h2>
-            <Suspense fallback={<div>Загрузка...</div>}>
+            <Suspense fallback={<div className='load-txt'>Загрузка...</div>}>
                 <CardListFur item={kitchen} />
             </Suspense>
             <h2 className='indoor-lb fur'>Для прихожей</h2>
-            <Suspense fallback={<div>Загрузка...</div>}>
+            <Suspense fallback={<div className='load-txt'>Загрузка...</div>}>
                 <CardListFur item={hall} />
             </Suspense>
             <ScrollToTopButton></ScrollToTopButton>

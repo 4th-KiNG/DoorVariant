@@ -2,7 +2,13 @@
     min-height: 2000px;
     background-color: rgb(24, 24, 24);
 }
-
+.load-txt{
+    color: #f9ec57;
+    display: flex;
+    justify-content: center;
+    font-family: '20011', sans-serif;
+    animation: neon-1 .1s ease-in-out infinite alternate;
+}
 .catalog-lb{
     font-size: 64px;
     font-weight: 700;

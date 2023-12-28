@@ -710,6 +710,229 @@ import lNora22 from './fur/locks/NoraM/22.jpeg'
 import lNora23 from './fur/locks/NoraM/23.jpeg'
 import lNora24 from './fur/locks/NoraM/24.jpeg'
 import lNora25 from './fur/locks/NoraM/25.jpeg'
+import lMSM1 from './fur/locks/MSM/1.jpeg'
+import lMSM2 from './fur/locks/MSM/2.jpeg'
+import lMSM3 from './fur/locks/MSM/3.jpeg'
+import lMSM4 from './fur/locks/MSM/4.jpeg'
+import lMSM5 from './fur/locks/MSM/5.jpeg'
+import lMSM6 from './fur/locks/MSM/6.jpeg'
+import lMSM7 from './fur/locks/MSM/7.jpeg'
+import lMSM8 from './fur/locks/MSM/8.jpeg'
+import lMSM9 from './fur/locks/MSM/9.jpeg'
+import lMSM10 from './fur/locks/MSM/10.jpeg'
+import lMSM11 from './fur/locks/MSM/11.jpeg'
+import lMSM12 from './fur/locks/MSM/12.jpeg'
+import lMSM13 from './fur/locks/MSM/13.jpeg'
+import lMSM14 from './fur/locks/MSM/14.jpeg'
+import lMSM15 from './fur/locks/MSM/15.jpeg'
+import lMSM16 from './fur/locks/MSM/16.jpeg'
+import lMSM17 from './fur/locks/MSM/17.jpeg'
+import lMSM18 from './fur/locks/MSM/18.jpeg'
+import lMSM19 from './fur/locks/MSM/19.jpeg'
+import lMSM20 from './fur/locks/MSM/20.jpeg'
+import lMSM21 from './fur/locks/MSM/21.jpeg'
+import lMSM22 from './fur/locks/MSM/22.jpeg'
+import hVantage1 from './fur/handles/Vantage/1.jpeg'
+import hVantage2 from './fur/handles/Vantage/2.jpeg'
+import hVantage3 from './fur/handles/Vantage/3.jpeg'
+import hVantage4 from './fur/handles/Vantage/4.jpeg'
+import hVantage5 from './fur/handles/Vantage/5.jpeg'
+import hVantage6 from './fur/handles/Vantage/6.jpeg'
+import hVantage7 from './fur/handles/Vantage/7.jpeg'
+import hVantage8 from './fur/handles/Vantage/8.jpeg'
+import hVantage9 from './fur/handles/Vantage/9.jpeg'
+import hVantage10 from './fur/handles/Vantage/10.jpeg'
+import hVantage11 from './fur/handles/Vantage/11.jpeg'
+import hVantage12 from './fur/handles/Vantage/12.jpeg'
+import hVantage13 from './fur/handles/Vantage/13.jpeg'
+import hVantage14 from './fur/handles/Vantage/14.jpeg'
+import hVantage15 from './fur/handles/Vantage/15.jpeg'
+import hVantage16 from './fur/handles/Vantage/16.jpeg'
+import hVantage17 from './fur/handles/Vantage/17.jpeg'
+import hVantage18 from './fur/handles/Vantage/18.jpeg'
+import hVantage19 from './fur/handles/Vantage/19.jpeg'
+import hVantage20 from './fur/handles/Vantage/20.jpeg'
+import hVantage21 from './fur/handles/Vantage/21.jpeg'
+import hVantage22 from './fur/handles/Vantage/22.jpeg'
+import hVantage23 from './fur/handles/Vantage/23.jpeg'
+import hVantage24 from './fur/handles/Vantage/24.jpeg'
+import hVantage25 from './fur/handles/Vantage/25.jpeg'
+import hVantage26 from './fur/handles/Vantage/26.jpeg'
+import hVantage27 from './fur/handles/Vantage/27.jpeg'
+import hVantage28 from './fur/handles/Vantage/28.jpeg'
+import hVantage29 from './fur/handles/Vantage/29.jpeg'
+import hVantage30 from './fur/handles/Vantage/30.jpeg'
+import hVantage31 from './fur/handles/Vantage/31.jpeg'
+import hVantage32 from './fur/handles/Vantage/32.jpeg'
+import hVantage33 from './fur/handles/Vantage/33.jpeg'
+import hVantage34 from './fur/handles/Vantage/34.jpeg'
+import hVantage35 from './fur/handles/Vantage/35.jpeg'
+import hVantage36 from './fur/handles/Vantage/36.jpeg'
+import hVantage37 from './fur/handles/Vantage/37.jpeg'
+import hVantage38 from './fur/handles/Vantage/38.jpeg'
+import hVantage39 from './fur/handles/Vantage/39.jpeg'
+import hVantage40 from './fur/handles/Vantage/40.jpeg'
+import hVantage41 from './fur/handles/Vantage/41.jpeg'
+import hVantage42 from './fur/handles/Vantage/42.jpeg'
+import hVantage43 from './fur/handles/Vantage/43.jpeg'
+import hVantage44 from './fur/handles/Vantage/44.jpeg'
+import hVantage45 from './fur/handles/Vantage/45.jpeg'
+import hVantage46 from './fur/handles/Vantage/46.jpeg'
+import hVantage47 from './fur/handles/Vantage/47.jpeg'
+import hVantage48 from './fur/handles/Vantage/48.jpeg'
+import hVantage49 from './fur/handles/Vantage/49.jpeg'
+import hVantage50 from './fur/handles/Vantage/50.jpeg'
+import hVantage51 from './fur/handles/Vantage/51.jpeg'
+import hVantage52 from './fur/handles/Vantage/52.jpeg'
+import hVantage53 from './fur/handles/Vantage/53.jpeg'
+import hVantage54 from './fur/handles/Vantage/54.jpeg'
+import hVantage55 from './fur/handles/Vantage/55.jpeg'
+import hVantage56 from './fur/handles/Vantage/56.jpeg'
+import hVantage57 from './fur/handles/Vantage/57.jpeg'
+import hVantage58 from './fur/handles/Vantage/58.jpeg'
+import hVantage59 from './fur/handles/Vantage/59.jpeg'
+import hVantage60 from './fur/handles/Vantage/60.jpeg'
+import hVantage61 from './fur/handles/Vantage/61.jpeg'
+import hVantage62 from './fur/handles/Vantage/62.jpeg'
+import hVantage63 from './fur/handles/Vantage/63.jpeg'
+import hVantage64 from './fur/handles/Vantage/64.jpeg'
+import hVantage65 from './fur/handles/Vantage/65.jpeg'
+import hVantage66 from './fur/handles/Vantage/66.jpeg'
+import hVantage67 from './fur/handles/Vantage/67.jpeg'
+import hVantage68 from './fur/handles/Vantage/68.jpeg'
+import hVantage69 from './fur/handles/Vantage/69.jpeg'
+import hVantage70 from './fur/handles/Vantage/70.jpeg'
+import hVantage71 from './fur/handles/Vantage/71.jpeg'
+import hVantage72 from './fur/handles/Vantage/72.jpeg'
+import hVantage73 from './fur/handles/Vantage/73.jpeg'
+import hVantage74 from './fur/handles/Vantage/74.jpeg'
+import hVantage75 from './fur/handles/Vantage/75.jpeg'
+import hVantage76 from './fur/handles/Vantage/76.jpeg'
+import hVantage77 from './fur/handles/Vantage/77.jpeg'
+import hVantage78 from './fur/handles/Vantage/78.jpeg'
+import hVantage79 from './fur/handles/Vantage/79.jpeg'
+import hVantage80 from './fur/handles/Vantage/80.jpeg'
+import hVantage81 from './fur/handles/Vantage/81.jpeg'
+import hVantage82 from './fur/handles/Vantage/82.jpeg'
+import hVantage83 from './fur/handles/Vantage/83.jpeg'
+import hVantage84 from './fur/handles/Vantage/84.jpeg'
+import hVantage85 from './fur/handles/Vantage/85.jpeg'
+import hVantage86 from './fur/handles/Vantage/86.jpeg'
+import hVantage87 from './fur/handles/Vantage/87.jpeg'
+import hVantage88 from './fur/handles/Vantage/88.jpeg'
+import hVantage89 from './fur/handles/Vantage/89.jpeg'
+import hVantage90 from './fur/handles/Vantage/90.jpeg'
+import hVantage91 from './fur/handles/Vantage/91.jpeg'
+import hVantage92 from './fur/handles/Vantage/92.jpeg'
+import hVantage93 from './fur/handles/Vantage/93.jpeg'
+import hVantage94 from './fur/handles/Vantage/94.jpeg'
+import hVantage95 from './fur/handles/Vantage/95.jpeg'
+import hVantage96 from './fur/handles/Vantage/96.jpeg'
+import hVantage97 from './fur/handles/Vantage/97.jpeg'
+import hVantage98 from './fur/handles/Vantage/98.jpeg'
+import hVantage99 from './fur/handles/Vantage/99.jpeg'
+import hVantage100 from './fur/handles/Vantage/100.jpeg'
+import hVantage101 from './fur/handles/Vantage/101.jpeg'
+import hVantage102 from './fur/handles/Vantage/102.jpeg'
+import hVantage103 from './fur/handles/Vantage/103.jpeg'
+import hVantage104 from './fur/handles/Vantage/104.jpeg'
+import hVantage105 from './fur/handles/Vantage/105.jpeg'
+import hVantage106 from './fur/handles/Vantage/106.jpeg'
+import hVantage107 from './fur/handles/Vantage/107.jpeg'
+import hVantage108 from './fur/handles/Vantage/108.jpeg'
+import hVantage109 from './fur/handles/Vantage/109.jpeg'
+import hVantage110 from './fur/handles/Vantage/110.jpeg'
+import hVantage111 from './fur/handles/Vantage/111.jpeg'
+import hVantage112 from './fur/handles/Vantage/112.jpeg'
+import hVantage113 from './fur/handles/Vantage/113.jpeg'
+import hVantage114 from './fur/handles/Vantage/114.jpeg'
+import hVantage115 from './fur/handles/Vantage/115.jpeg'
+import hVantage116 from './fur/handles/Vantage/116.jpeg'
+import hVantage117 from './fur/handles/Vantage/117.jpeg'
+import hVantage118 from './fur/handles/Vantage/118.jpeg'
+import hVantage119 from './fur/handles/Vantage/119.jpeg'
+import hVantage120 from './fur/handles/Vantage/120.jpeg'
+import hVantage121 from './fur/handles/Vantage/121.jpeg'
+import hVantage122 from './fur/handles/Vantage/122.jpeg'
+import hVantage123 from './fur/handles/Vantage/123.jpeg'
+import hVantage124 from './fur/handles/Vantage/124.jpeg'
+import hVantage125 from './fur/handles/Vantage/125.jpeg'
+import hVantage126 from './fur/handles/Vantage/126.jpeg'
+import hVantage127 from './fur/handles/Vantage/127.jpeg'
+import hVantage128 from './fur/handles/Vantage/128.jpeg'
+import hVantage129 from './fur/handles/Vantage/129.jpeg'
+import hVantage130 from './fur/handles/Vantage/130.jpeg'
+import hVantage131 from './fur/handles/Vantage/131.jpeg'
+import hVantage132 from './fur/handles/Vantage/132.jpeg'
+import hVantage133 from './fur/handles/Vantage/133.jpeg'
+import hVantage134 from './fur/handles/Vantage/134.jpeg'
+import hVantage135 from './fur/handles/Vantage/135.jpeg'
+import hVantage136 from './fur/handles/Vantage/136.jpeg'
+import hVantage137 from './fur/handles/Vantage/137.jpeg'
+import hVantage138 from './fur/handles/Vantage/138.jpeg'
+import hVantage139 from './fur/handles/Vantage/139.jpeg'
+import hVantage140 from './fur/handles/Vantage/140.jpeg'
+import hVantage141 from './fur/handles/Vantage/141.jpeg'
+import hVantage142 from './fur/handles/Vantage/142.jpeg'
+import hVantage143 from './fur/handles/Vantage/143.jpeg'
+import hVantage144 from './fur/handles/Vantage/144.jpeg'
+import hVantage145 from './fur/handles/Vantage/145.jpeg'
+import hVantage146 from './fur/handles/Vantage/146.jpeg'
+import hVantage147 from './fur/handles/Vantage/147.jpeg'
+import hVantage148 from './fur/handles/Vantage/148.jpeg'
+import hVantage149 from './fur/handles/Vantage/149.jpeg'
+import hVantage150 from './fur/handles/Vantage/150.jpeg'
+import hVantage151 from './fur/handles/Vantage/151.jpeg'
+import hVantage152 from './fur/handles/Vantage/152.jpeg'
+import hVantage153 from './fur/handles/Vantage/153.jpeg'
+import hVantage154 from './fur/handles/Vantage/154.jpeg'
+import hVantage155 from './fur/handles/Vantage/155.jpeg'
+import hVantage156 from './fur/handles/Vantage/156.jpeg'
+import hVantage157 from './fur/handles/Vantage/157.jpeg'
+import hVantage158 from './fur/handles/Vantage/158.jpeg'
+import hVantage159 from './fur/handles/Vantage/159.jpeg'
+import hVantage160 from './fur/handles/Vantage/160.jpeg'
+import hVantage161 from './fur/handles/Vantage/161.jpeg'
+import hVantage162 from './fur/handles/Vantage/162.jpeg'
+import hVantage163 from './fur/handles/Vantage/163.jpeg'
+import hVantage164 from './fur/handles/Vantage/164.jpeg'
+import hVantage165 from './fur/handles/Vantage/165.jpeg'
+import hVantage166 from './fur/handles/Vantage/166.jpeg'
+import hVantage167 from './fur/handles/Vantage/167.jpeg'
+import hVantage168 from './fur/handles/Vantage/168.jpeg'
+import hVantage169 from './fur/handles/Vantage/169.jpeg'
+import hVantage170 from './fur/handles/Vantage/170.jpeg'
+import hVantage171 from './fur/handles/Vantage/171.jpeg'
+import hVantage172 from './fur/handles/Vantage/172.jpeg'
+import hVantage173 from './fur/handles/Vantage/173.jpeg'
+import hVantage174 from './fur/handles/Vantage/174.jpeg'
+import hVantage175 from './fur/handles/Vantage/175.jpeg'
+import hVantage176 from './fur/handles/Vantage/176.jpeg'
+import hVantage177 from './fur/handles/Vantage/177.jpeg'
+import hVantage178 from './fur/handles/Vantage/178.jpeg'
+import hVantage179 from './fur/handles/Vantage/179.jpeg'
+import hVantage180 from './fur/handles/Vantage/180.jpeg'
+import hVantage181 from './fur/handles/Vantage/181.jpeg'
+import hVantage182 from './fur/handles/Vantage/182.jpeg'
+import hVantage183 from './fur/handles/Vantage/183.jpeg'
+import hVantage184 from './fur/handles/Vantage/184.jpeg'
+import hVantage185 from './fur/handles/Vantage/185.jpeg'
+import hVantage186 from './fur/handles/Vantage/186.jpeg'
+import hVantage187 from './fur/handles/Vantage/187.jpeg'
+import hVantage188 from './fur/handles/Vantage/188.jpeg'
+import hVantage189 from './fur/handles/Vantage/189.jpeg'
+import hVantage190 from './fur/handles/Vantage/190.jpeg'
+import hVantage191 from './fur/handles/Vantage/191.jpeg'
+import hVantage192 from './fur/handles/Vantage/192.jpeg'
+import hVantage193 from './fur/handles/Vantage/193.jpeg'
+import hVantage194 from './fur/handles/Vantage/194.jpeg'
+import hVantage195 from './fur/handles/Vantage/195.jpeg'
+import hVantage196 from './fur/handles/Vantage/196.jpeg'
+import hVantage197 from './fur/handles/Vantage/197.jpeg'
+import hVantage198 from './fur/handles/Vantage/198.jpeg'
+import hVantage199 from './fur/handles/Vantage/199.jpeg'
+import hVantage200 from './fur/handles/Vantage/200.jpeg'
+import hVantage201 from './fur/handles/Vantage/201.jpeg'
 import l1 from './fur/loops/1.jpeg'
 import l2 from './fur/loops/2.jpeg'
 import l3 from './fur/loops/3.jpeg'
@@ -1437,6 +1660,229 @@ lNora22,
 lNora23,
 lNora24,
 lNora25,
+lMSM1,
+lMSM2,
+lMSM3,
+lMSM4,
+lMSM5,
+lMSM6,
+lMSM7,
+lMSM8,
+lMSM9,
+lMSM10,
+lMSM11,
+lMSM12,
+lMSM13,
+lMSM14,
+lMSM15,
+lMSM16,
+lMSM17,
+lMSM18,
+lMSM19,
+lMSM20,
+lMSM21,
+lMSM22,
+hVantage1,
+hVantage2,
+hVantage3,
+hVantage4,
+hVantage5,
+hVantage6,
+hVantage7,
+hVantage8,
+hVantage9,
+hVantage10,
+hVantage11,
+hVantage12,
+hVantage13,
+hVantage14,
+hVantage15,
+hVantage16,
+hVantage17,
+hVantage18,
+hVantage19,
+hVantage20,
+hVantage21,
+hVantage22,
+hVantage23,
+hVantage24,
+hVantage25,
+hVantage26,
+hVantage27,
+hVantage28,
+hVantage29,
+hVantage30,
+hVantage31,
+hVantage32,
+hVantage33,
+hVantage34,
+hVantage35,
+hVantage36,
+hVantage37,
+hVantage38,
+hVantage39,
+hVantage40,
+hVantage41,
+hVantage42,
+hVantage43,
+hVantage44,
+hVantage45,
+hVantage46,
+hVantage47,
+hVantage48,
+hVantage49,
+hVantage50,
+hVantage51,
+hVantage52,
+hVantage53,
+hVantage54,
+hVantage55,
+hVantage56,
+hVantage57,
+hVantage58,
+hVantage59,
+hVantage60,
+hVantage61,
+hVantage62,
+hVantage63,
+hVantage64,
+hVantage65,
+hVantage66,
+hVantage67,
+hVantage68,
+hVantage69,
+hVantage70,
+hVantage71,
+hVantage72,
+hVantage73,
+hVantage74,
+hVantage75,
+hVantage76,
+hVantage77,
+hVantage78,
+hVantage79,
+hVantage80,
+hVantage81,
+hVantage82,
+hVantage83,
+hVantage84,
+hVantage85,
+hVantage86,
+hVantage87,
+hVantage88,
+hVantage89,
+hVantage90,
+hVantage91,
+hVantage92,
+hVantage93,
+hVantage94,
+hVantage95,
+hVantage96,
+hVantage97,
+hVantage98,
+hVantage99,
+hVantage100,
+hVantage101,
+hVantage102,
+hVantage103,
+hVantage104,
+hVantage105,
+hVantage106,
+hVantage107,
+hVantage108,
+hVantage109,
+hVantage110,
+hVantage111,
+hVantage112,
+hVantage113,
+hVantage114,
+hVantage115,
+hVantage116,
+hVantage117,
+hVantage118,
+hVantage119,
+hVantage120,
+hVantage121,
+hVantage122,
+hVantage123,
+hVantage124,
+hVantage125,
+hVantage126,
+hVantage127,
+hVantage128,
+hVantage129,
+hVantage130,
+hVantage131,
+hVantage132,
+hVantage133,
+hVantage134,
+hVantage135,
+hVantage136,
+hVantage137,
+hVantage138,
+hVantage139,
+hVantage140,
+hVantage141,
+hVantage142,
+hVantage143,
+hVantage144,
+hVantage145,
+hVantage146,
+hVantage147,
+hVantage148,
+hVantage149,
+hVantage150,
+hVantage151,
+hVantage152,
+hVantage153,
+hVantage154,
+hVantage155,
+hVantage156,
+hVantage157,
+hVantage158,
+hVantage159,
+hVantage160,
+hVantage161,
+hVantage162,
+hVantage163,
+hVantage164,
+hVantage165,
+hVantage166,
+hVantage167,
+hVantage168,
+hVantage169,
+hVantage170,
+hVantage171,
+hVantage172,
+hVantage173,
+hVantage174,
+hVantage175,
+hVantage176,
+hVantage177,
+hVantage178,
+hVantage179,
+hVantage180,
+hVantage181,
+hVantage182,
+hVantage183,
+hVantage184,
+hVantage185,
+hVantage186,
+hVantage187,
+hVantage188,
+hVantage189,
+hVantage190,
+hVantage191,
+hVantage192,
+hVantage193,
+hVantage194,
+hVantage195,
+hVantage196,
+hVantage197,
+hVantage198,
+hVantage199,
+hVantage200,
+hVantage201,
     l1,
     l2,
     l3,
